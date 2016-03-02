@@ -1,0 +1,66 @@
+$RIG-background-color: #fff;
+$RIG-font-color: #47a3da;
+
+
+body {
+   background-color: $RIG-background-color;
+   color: $RIG-font-color;
+   font-family: "Open sans", sans-serif;
+}
+
+.allItems {
+   margin-top: 10%;
+   width: 100%;
+}
+
+.row {
+   width: 80%;
+   margin-left: 10%;
+}
+
+.top {
+   border-bottom: 1px solid #ddd;
+}
+
+.grid-container {
+   display: inline-block;
+   width: (95% / 3);
+   text-align: center;
+   padding: 0;
+   border: none;
+   padding: 4% 0;
+   font-size: 2em;
+}
+
+.dash {
+   border: 5px solid $RIG-font-color;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+.middle {
+   border-left: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+}
+
+.grid-container:hover {
+   color: $RIG-background-color;
+   background-color: $RIG-font-color;
+   .dash {
+      border: 5px solid $RIG-background-color;
+   }
+}
+
+h1 {
+   margin-bottom: 0.5em;
+}
+
+h2 {
+   margin-top: 0.5em;
+}
+
+h5 {
+   color: $RIG-background-color;
+   font-size: 0.7em;
+   margin-top: 0.5em;
+}

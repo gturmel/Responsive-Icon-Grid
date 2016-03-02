@@ -44,7 +44,7 @@ Won't go more than 3 cols.
 
 Blue used: #47a3da
 For grid border: 	color: #ddd
-For bckrnd, font on hover: #fff 
+For bckrnd, font on hover: #fff
 
 ## jQuery Plan:
 
